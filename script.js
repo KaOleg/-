@@ -145,7 +145,6 @@ checkBtn.onclick = function () {
     }
 };
 startBtn.onclick = function () {
-    words.value = words.value + 1
     startBtn.disabled = true
     checkBtn.disabled = false
     attempts = 6
